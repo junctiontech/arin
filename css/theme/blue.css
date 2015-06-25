@@ -1,0 +1,264 @@
+/* --------------------------------------------------------------------------
+ *
+ * file           : theme-switcher.css
+ * Desc           : Foundstrap Theme Switcher
+ * Author         : Imam Firmansyah
+ * Author URI     : http://imamfirmansyah.com
+ * Email          : imamfirmansyah27@gmail.com
+ *
+ * Copyright 2014. All Rights Reserved.
+ * -------------------------------------------------------------------------- */
+::selection {
+  background-color: #03afff; }
+
+::-moz-selection {
+  background-color: #03afff; }
+
+#me-header.header-style1 .me-menu a.active,
+#me-header.header-style1 .me-menu a.current,
+#me-header.header-style1 .me-menu a:hover,
+#me-header.header-style1 .me-menu a:focus,
+#me-header.header-style1 .me-menu a:active,
+#me-header.header-style1 .me-menu a.highlighted, .slideshow .slider1-separator:before,
+.slideshow .button-slider-group, #scrollUp,
+.heading-title:after,
+.slideshow .slider3-caption2,
+.masonry-no-image,
+.masonry-overlay.keid-overlay, .button, .button.button-border:hover, .progress-bar .progress-content,
+.me-panel.fold, .icon-shape.circle,
+.icon-shape.square,
+.icon-shape.radius,
+.text-shape.circle,
+.text-shape.square,
+.text-shape.radius,
+.pricing-table .price,
+.menu-trigger, .pricing-table.pricing-style3:after, .keid-section,
+.me-breadcrumb > .active a,
+blockquote cite span, .testimonial-description span,
+.me-team span,
+.me-team .social-icon a, .me-artice .social-icon a,
+.badge,
+.comment-text .reply,
+.tag-cloud a, .image-content .img-overlay,
+.me-image .image-caption:after, .portfolio-filter .button.selected, .mejs-audio .mejs-controls .mejs-time-rail .mejs-time-current, .pagination li.active a,
+.table th,
+.promo-box:before,
+.highlight,
+.dropcap.circle,
+.dropcap.square, .me-tab-big .resp-tabs-list li.resp-tab-active, .me-tab-big .resp-tabs-list li:hover, .pricing-table.pricing-style4 .cta-button, .chosen-container .chosen-results li.highlighted,
+.panel-talk,
+.medical-open,
+.me-testimonial.testimonial-style2 .testimonial-text,
+.medical-schedule,
+.medical-parallax, .form-reservation, .header-widget,
+.hotel-room .room-facilities {
+  background-color: #03afff; }
+
+#scrollUp:hover, #scrollUp:focus, .button:hover, .button:focus, .button.button-icon-right:hover .button-icon,
+.button.button-icon-left:hover .button-icon, .menu-trigger.active, .keid-section .heading-title:after,
+.me-breadcrumb a:hover, .pricing-table .title,
+.me-team .social-icon a:hover, .pagination li a:hover,
+.pagination li.active a:hover,
+.tag-cloud a:hover, .portfolio-filter .button:hover {
+  background-color: #50c7ff; }
+
+.slideshow .restaurant-slider1-caption1, .icon-shape i,
+.icon-shape span,
+.text-shape i,
+.text-shape span,
+.keid-color,
+.post-item i, .twitter-feed .twitter-text a,
+.twitter-feed .twitter-text .at, .text-shape.stroke i, .text-shape.stroke span,
+.icon-shape.stroke i,
+.icon-shape.stroke span, .pricing-table.pricing-style3 .bullet-item:before,
+h4.resp-accordion i, .resp-tabs-list li i, .popular-list a,
+.blog-author .author-link, .me-testimonial.testimonial-style3 .testimonial-description span,
+.me-testimonial.testimonial-style2 .testimonial-description span, #me-header.header-style3 .phone-number {
+  color: #03afff; }
+
+a:hover, .button.link:hover, .button.button-app.link:hover, .post-item .post-title-item:hover *, .twitter-feed .twitter-text a:hover,
+.twitter-feed .twitter-text .at:hover, .me-menu a:hover,
+.me-menu a:focus,
+.me-menu a:active,
+.me-menu a.highlighted,
+.me-menu a.active,
+.me-menu a.current,
+.me-menu a.current:hover,
+.me-menu a.current:focus,
+.me-menu a.current:active, .me-menu ul a:hover,
+.me-menu ul a:focus,
+.me-menu ul a:active,
+.me-menu ul a.highlighted, .blog-carousel-nav .left-nav:hover i, .blog-carousel-nav .right-nav:hover i, .category-list a:hover,
+.popular-list a:hover,
+.archive-list a:hover,
+.blog-author .author-link:hover, .list-circle-check a:hover,
+.list-arrow a:hover,
+.list-arrow-circle a:hover,
+.list-no-bullet a:hover,
+.list-disc a:hover,
+.list-square a:hover,
+.list-number a:hover,
+.blog-link a:hover {
+  color: #50c7ff; }
+
+.slideshow .tp-bannertimer {
+  background: rgba(3, 175, 255, 0.5); }
+
+#me-header.header-transparent .me-menu a.active,
+#me-header.header-transparent .me-menu a.current,
+#me-header.header-transparent .me-menu a:hover,
+#me-header.header-transparent .me-menu a:focus,
+#me-header.header-transparent .me-menu a:active,
+#me-header.header-transparent .me-menu a.highlighted {
+  color: #03afff; }
+
+#me-header.header-style1 .me-menu ul a.active,
+#me-header.header-style1 .me-menu ul a.current,
+#me-header.header-style1 .me-menu ul a:hover,
+#me-header.header-style1 .me-menu ul a:focus,
+#me-header.header-style1 .me-menu ul a:active,
+#me-header.header-style1 .me-menu ul a.highlighted {
+  color: #03afff !important; }
+
+#me-header.header-style2 .me-menu a.active, #me-header.header-style2 .me-menu a.current, #me-header.header-style2 .me-menu a:hover, #me-header.header-style2 .me-menu a:focus, #me-header.header-style2 .me-menu a:active, #me-header.header-style2 .me-menu a.highlighted,
+#me-header.header-style4 .me-menu a.active,
+#me-header.header-style4 .me-menu a.current,
+#me-header.header-style4 .me-menu a:hover,
+#me-header.header-style4 .me-menu a:focus,
+#me-header.header-style4 .me-menu a:active,
+#me-header.header-style4 .me-menu a.highlighted {
+  color: #03afff; }
+
+#me-header.header-style3 .header-under-container {
+  background: rgba(3, 175, 255, 0.75); }
+
+.me-menu span.scroll-up:hover span.scroll-up-arrow:after,
+.me-menu span.scroll-down:hover span.scroll-down-arrow:after {
+  color: #50c7ff; }
+
+.slideshow .button-slider-group .button-icon {
+  background: #0094d9; }
+
+#slideshow-container .tp-rightarrow.default:hover:before,
+#slideshow-container .tp-leftarrow.default:hover:before {
+  color: #50c7ff; }
+
+.button.button-icon-right .button-icon,
+.button.button-icon-left .button-icon {
+  background: #0094d9; }
+
+.list-color li:before {
+  color: #03afff !important; }
+
+.form-control:focus {
+  border-color: #03afff;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(3, 175, 255, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(3, 175, 255, 0.6); }
+
+.me-menu a:hover span.sub-arrow:after,
+.me-menu a:focus span.sub-arrow:after,
+.me-menu a:active span.sub-arrow:after,
+.me-menu a.highlighted span.sub-arrow:after {
+  color: #50c7ff; }
+
+.button.button-border {
+  border: 1px solid #03afff;
+  color: #03afff; }
+
+.me-panel.fold:before {
+  border-color: #f6f6f6 #006a9c #f6f6f6 #f6f6f6; }
+
+.text-shape.stroke,
+.icon-shape.stroke {
+  border: 2px solid #03afff;
+  background: transparent; }
+
+.pricing-table.pricing-style2 {
+  border: 5px solid #03afff; }
+
+.me-menu .mega-menu-list li a:hover,
+.me-menu .mega-menu-list li a:focus,
+.me-menu .mega-menu-list li a:active {
+  color: #50c7ff !important; }
+
+.pricing-table.pricing-style3.featured-pricing {
+  border-color: #50c7ff; }
+
+.slideshow-app {
+  background-color: #006a9c; }
+
+.resp-tabs-list li:hover,
+h4.resp-accordion:hover,
+h4.resp-accordion.resp-tab-active,
+h4.resp-accordion.resp-tab-active:hover,
+h4.resp-accordion.resp-tab-active:active,
+.resp-tabs-list li.resp-tab-active,
+.resp-tabs-list li.resp-tab-active:hover,
+.resp-tabs-list li.resp-tab-active:active {
+  background: #03afff;
+  border: 1px solid #03afff; }
+
+.blog-info .date-blog-info,
+.pagination li.active a {
+  border-color: #03afff; }
+
+.pagination li a:hover,
+.pagination li.active a:hover {
+  border-color: #50c7ff; }
+
+.restaurant-reservation-form fieldset,
+.restaurant-reservation-form .form-control {
+  border-color: #03afff; }
+
+.me-tab-big .resp-tabs-list li.resp-tab-active:after {
+  border-color: #03afff transparent transparent transparent; }
+
+.me-testimonial.testimonial-style3 img {
+  border-color: #03afff; }
+
+.form-reservation .form-control,
+.form-reservation .chosen-container-single .chosen-single {
+  border: 2px solid #008dcf; }
+
+#me-header.header-style3 .phone-number {
+  border-color: #03afff; }
+
+#me-header.header-style3 .me-menu a.active,
+#me-header.header-style3 .me-menu a:hover {
+  color: #007cb5 !important; }
+
+#me-header.header-style4 .header-box,
+.photography-contact-container .form-control {
+  border-color: #03afff; }
+
+.datepicker td.active,
+.datepicker td.active:hover {
+  background: #03afff !important; }
+.datepicker td span.active:hover,
+.datepicker td span.active:focus,
+.datepicker td span.active:active,
+.datepicker td span.active.active,
+.datepicker td span.active.disabled,
+.datepicker td span.active[disabled],
+.datepicker td.active:hover,
+.datepicker td.active:hover:hover,
+.datepicker td.active:focus,
+.datepicker td.active:hover:focus,
+.datepicker td.active:active,
+.datepicker td.active:hover:active,
+.datepicker td.active.active,
+.datepicker td.active:hover.active,
+.datepicker td.active.disabled,
+.datepicker td.active:hover.disabled,
+.datepicker td.active[disabled],
+.datepicker td.active:hover[disabled] {
+  background: #03afff !important; }
+
+@media only screen and (max-width: 959px) {
+  #me-header.header-style1 .me-menu a.active,
+  #me-header.header-style1 .me-menu a.current,
+  #me-header.header-style1 .me-menu a:hover,
+  #me-header.header-style1 .me-menu a:focus,
+  #me-header.header-style1 .me-menu a:active,
+  #me-header.header-style1 .me-menu a.highlighted {
+    color: #03afff !important; } }

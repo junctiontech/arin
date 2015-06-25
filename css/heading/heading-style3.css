@@ -1,0 +1,26 @@
+/* --------------------------------------------------------------------------
+ * Indonez  	: Keid - Modern HTML Template
+ *  
+ * file         : heading-style2.css
+ * Version 		: 1.0
+ * Author       : indonez - team
+ * Author URI   : http://indonez.com
+ *
+ * Indonez Copyright 2015 All Rights Reserved.
+ * -------------------------------------------------------------------------- */
+@import url("http://fonts.googleapis.com/css?family=Dancing+Script:400,700");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Dancing Script", cursive;
+  font-weight: 400; }
+  h1 strong,
+  h2 strong,
+  h3 strong,
+  h4 strong,
+  h5 strong,
+  h6 strong {
+    font-weight: 700; }

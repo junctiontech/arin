@@ -1,0 +1,398 @@
+/* --------------------------------------------------------------------------
+ * Indonez        : Keid - Modern HTML Template
+ *  
+ * file           : revolution-responsive.css
+ * Version        : 1.0
+ * Author         : indonez - team
+ * Author URI     : http://indonez.com
+ *
+ * Copyright 2015. All Rights Reserved.
+ * -------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------
+   
+   [Table of contents]
+   1. notebook
+   2. tablet landscape
+   3. tablet portrait
+   4. mobile landscape
+   5. mobile portrait
+
+------------------------------------------------------------------ */
+/* [Notebook] */
+@media only screen and (max-width: 1280px) {
+  .slider1-caption1,
+  .slider1-caption2,
+  .slider1-separator {
+    margin-left: -85px !important; }
+
+  .slider2-caption2 {
+    margin: 0;
+    margin-left: -16px !important; }
+    .slider2-caption2 a {
+      transition: none; }
+
+  .slider3-caption1 {
+    margin-left: 80px; }
+
+  .slider3-caption2 {
+    margin-left: 83px; }
+
+  .photography-slider1-separator {
+    margin-left: 0 !important; }
+
+  .restaurant-slider1-caption1,
+  .restaurant-slider1-caption2,
+  .restaurant-slider1-caption3 {
+    margin-left: 0 !important;
+    margin-top: 20px !important; }
+
+  .restaurant-slider1-caption4 {
+    margin-left: -20px !important; }
+
+  .restaurant-slider2-caption1,
+  .restaurant-slider2-caption2 {
+    margin-left: 0 !important; }
+
+  .hosting-slide1-caption1 {
+    margin-top: -20px !important; }
+
+  .hosting-slide1-caption2,
+  .hosting-slide1-caption3,
+  .hosting-slide1-caption4,
+  .hosting-slide1-button {
+    margin-top: -30px !important; }
+
+  .hotel-slider1-caption1,
+  .hotel-slider1-caption2 {
+    margin-left: 0px; } }
+/* [Tablet Landscape] */
+@media only screen and (max-width: 1024px) {
+  a {
+    transition: none; }
+
+  .slider1-caption1,
+  .slider1-caption2,
+  .slider1-separator,
+  .medical-slider1-caption1,
+  .medical-slider1-caption2 {
+    margin-left: 19px !important; }
+
+  .slider2-caption2 {
+    margin-left: -5px !important; }
+
+  .slider3-caption1 {
+    margin-left: -30px !important; }
+
+  .slider3-caption2 {
+    margin-left: -27px !important; }
+
+  .photography-slider1-caption1,
+  .photography-slider1-caption2,
+  .photography-slider1-separator {
+    margin-left: -28px !important; }
+
+  .restaurant-slider2-caption1,
+  .restaurant-slider2-caption2 {
+    margin-left: 38px !important;
+    margin-top: 20px !important; }
+
+  .hosting-slide1-caption2 {
+    margin-left: -10px !Important; }
+
+  .medical-slider1-caption1,
+  .medical-slider1-caption2 {
+    margin-top: 60px !important; }
+
+  .medical-slider1-caption2 {
+    display: none; }
+
+  .hotel-slider1-box {
+    margin-left: -13px !important;
+    margin-top: -12px !important; }
+
+  .hotel-slider1-caption1,
+  .hotel-slider1-caption2 {
+    margin-left: 0; } }
+/* [Table Potrait] */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  #slideshow-container {
+    height: 795px !important; }
+
+  .slider1-caption1,
+  .slider1-caption2,
+  .slider1-separator {
+    margin-left: 19px !important; }
+
+  .slider2-caption2 {
+    margin: 0;
+    display: inline-block;
+    margin-left: -25px !important; }
+    .slider2-caption2 .button-slider {
+      display: block;
+      transition: none; }
+
+  .slider3-caption1 {
+    margin-left: -70px !important; }
+
+  .slider3-caption2 {
+    margin-left: -67px !important; }
+
+  .photography-slider1-caption1,
+  .photography-slider1-caption2 {
+    margin-left: -56px !important; }
+
+  .photography-slider1-separator {
+    margin-left: -80px !important; }
+
+  .medical-slider1-caption2 {
+    margin-top: 70px !important; }
+    .medical-slider1-caption2 .button-slider-group {
+      float: left; }
+
+  .hotel-slider1-box {
+    width: 409px !important;
+    height: 145px !important; }
+
+  .hotel-slider1-caption1,
+  .hotel-slider1-caption2 {
+    margin-left: -1px !important; }
+
+  .keid-hotel #slideshow-container {
+    height: 553px !important; } }
+/* [Mobile Landscape] */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  #slideshow-container {
+    height: 270px !important; }
+
+  .slider1-caption1,
+  .slider1-caption2,
+  .slider1-separator {
+    left: 0 !important;
+    margin-left: 19px !important; }
+
+  .slider1-caption1 {
+    font-size: 32px !important; }
+
+  .slider1-caption2 {
+    font-size: 12px !important;
+    margin-top: 10px !important; }
+
+  .slider1-separator {
+    margin-top: 20px !important; }
+    .slider1-separator:before {
+      width: 100px !important; }
+
+  .slider2-img1 {
+    margin-top: -20px; }
+    .slider2-img1 img {
+      width: 64px !important;
+      height: 64px !important; }
+
+  .slider2-caption1 {
+    font-size: 12px !important;
+    line-height: 18px !important;
+    margin-left: -70px !important;
+    margin-top: 10px !important; }
+
+  .slider2-caption2 {
+    margin-top: 35px !important;
+    margin-left: -30px !important; }
+    .slider2-caption2 .button-slider {
+      font-size: 10px;
+      padding: 10px 15px; }
+
+  .slider3-caption1 {
+    font-size: 32px !important; }
+
+  .slider3-caption2 {
+    margin-top: 10px !important;
+    margin-left: -30px !important;
+    padding: 12px 15px !important;
+    font-size: 12px !important;
+    line-height: 18px !important; }
+
+  .photography-slider1-caption1 {
+    margin-left: -22px !important; }
+
+  .photography-slider1-caption2 {
+    margin-left: -30px !important; }
+
+  .photography-slider1-separator {
+    margin-left: 446px !important;
+    margin-top: 5px !important; }
+
+  .restaurant-slider1-caption1,
+  .restaurant-slider1-caption4 {
+    display: none; }
+
+  .restaurant-slider1-caption2 {
+    font-size: 48px !important;
+    margin-left: -20px !important;
+    margin-top: 0 !important; }
+
+  .restaurant-slider1-caption3 {
+    margin-top: 0 !important; }
+
+  .restaurant-slider2-caption1 {
+    font-size: 48px !important;
+    margin-left: -60px !important;
+    margin-top: 0 !important; }
+
+  .restaurant-slider2-caption2 {
+    display: none; }
+
+  .hosting-slide1-caption1 {
+    margin-top: -5px !important;
+    margin-left: -50px !important; }
+    .hosting-slide1-caption1 img {
+      width: 150px !important;
+      height: auto !important; }
+
+  .hosting-slide1-caption2 {
+    margin-top: 0 !important;
+    margin-left: -20px !important; }
+
+  .hosting-slide1-caption2 img {
+    width: 260px !important;
+    height: auto !important; }
+
+  .hosting-slide1-caption3 {
+    font-size: 22px !important;
+    margin-top: 9px !important;
+    margin-left: -25px !important; }
+
+  .hosting-slide1-caption4 {
+    font-size: 9px !important;
+    margin-left: -25px !important;
+    margin-top: 18px !important; }
+
+  .hosting-slide1-button {
+    display: none; }
+
+  .medical-slider1-caption1 {
+    margin-top: 20px !important;
+    margin-left: -80px !important;
+    font-size: 18px !important;
+    line-height: 24px !important; }
+    .medical-slider1-caption1 span {
+      font-size: 24px !important; }
+
+  .medical-slider1-caption2 {
+    display: none; }
+
+  .hotel-slider1-box {
+    display: none; }
+
+  .hotel-slider1-caption1 {
+    font-size: 28px !important;
+    margin-top: -20px !important;
+    margin-left: -14px !important; }
+
+  .hotel-slider1-caption2 {
+    font-size: 42px !important;
+    margin-left: -15px !important; } }
+/* [Mobile Portrait] */
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  #slideshow-container {
+    height: 160px !important; }
+
+  .slider1-caption1,
+  .slider1-caption2,
+  .slider1-separator {
+    left: 0 !important;
+    margin-left: 19px !important; }
+
+  .slider1-caption1 {
+    font-size: 23px !important; }
+
+  .slider1-separator {
+    margin-top: 5px !important; }
+    .slider1-separator:before {
+      width: 80px !important; }
+
+  .slider2-img1 {
+    margin-top: -20px;
+    margin-left: -20px !important; }
+    .slider2-img1 img {
+      width: 64px !important;
+      height: 64px !important; }
+
+  .slider2-caption2 {
+    margin-top: 10px !important;
+    margin-left: -55px !important; }
+    .slider2-caption2 .button-slider {
+      font-size: 10px;
+      padding: 10px 15px; }
+
+  .slider3-caption1 {
+    margin-top: 10px !important;
+    margin-left: -90px !important;
+    font-size: 23px !important; }
+
+  .slider1-caption2,
+  .slider2-caption1,
+  .slider3-caption2 {
+    display: none; }
+
+  .photography-slider1-caption1 {
+    margin-left: -86px !important;
+    font-size: 28px !important; }
+
+  .photography-slider1-caption2 {
+    display: none; }
+
+  .photography-slider1-separator {
+    margin-left: 218px !important;
+    margin-top: 0 !important; }
+
+  .restaurant-slider1-caption1,
+  .restaurant-slider1-caption3,
+  .restaurant-slider1-caption4,
+  .restaurant-slider2-caption2 {
+    display: none; }
+
+  .restaurant-slider1-caption2 {
+    font-size: 36px !important;
+    margin-left: -6px !important;
+    margin-top: 0 !important; }
+
+  .restaurant-slider2-caption1 {
+    font-size: 36px !important;
+    margin-left: 20px !important;
+    margin-top: 0 !important; }
+
+  .hosting-slide1-caption1 {
+    margin-top: -5px !important;
+    margin-left: -25px !important; }
+
+  .hosting-slide1-caption2,
+  .hosting-slide1-caption4 {
+    display: none; }
+
+  .hosting-slide1-caption3 {
+    margin-top: 0px !important;
+    margin-left: -45px !important;
+    font-size: 18px !important; }
+
+  .hosting-slide1-button {
+    display: none; }
+
+  .medical-slider1-caption1 {
+    margin-top: 10px !important;
+    margin-left: 18px !important;
+    font-size: 11px !important;
+    line-height: 14px !important; }
+    .medical-slider1-caption1 span {
+      font-size: 14px !important; }
+
+  .medical-slider1-caption2 {
+    display: none; }
+
+  .hotel-slider1-box,
+  .hotel-slider1-caption1 {
+    display: none; }
+
+  .hotel-slider1-caption2 {
+    font-size: 36px !important;
+    margin-left: -42px !important;
+    margin-top: -10px !important; } }

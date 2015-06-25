@@ -1,0 +1,18 @@
+/* --------------------------------------------------------------------------
+ * Indonez  	: Keid - Modern HTML Template
+ *  
+ * file         : heading-style1.css
+ * Version 		: 1.0
+ * Author       : indonez - team
+ * Author URI   : http://indonez.com
+ *
+ * Indonez Copyright 2015 All Rights Reserved.
+ * -------------------------------------------------------------------------- */
+@import url("http://fonts.googleapis.com/css?family=Playfair+Display:700");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif; }

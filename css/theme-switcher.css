@@ -1,0 +1,136 @@
+/* --------------------------------------------------------------------------
+ *
+ * file           : theme-switcher.css
+ * Desc           : Foundstrap Theme Switcher
+ * Version        : 1.0
+ * Date           : 08/11/2014
+ * Author         : Imam Firmansyah
+ * Author URI     : http://imamfirmansyah.com
+ * Email          : imamfirmansyah27@gmail.com
+ *
+ * Copyright 2014. All Rights Reserved.
+ * -------------------------------------------------------------------------- */
+#theme-switcher {
+  position: fixed;
+  z-index: 999;
+  top: 100px;
+  right: -194px;
+  min-width: 194px;
+  background: #fff;
+  border: 1px solid #eaeaea;
+  -webkit-box-shadow: 0px 10px 10px -10px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 10px 10px -10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 10px 10px -10px rgba(0, 0, 0, 0.15); }
+  #theme-switcher .heading-switcher {
+    height: 48px;
+    display: block;
+    padding: 13px; }
+  #theme-switcher .container-switcher {
+    padding: 0px 10px 20px; }
+  #theme-switcher .footer-switcher {
+    padding: 0px 10px 20px; }
+  #theme-switcher .pattern-theme {
+    margin-top: 15px;
+    display: none; }
+  #theme-switcher h4 {
+    display: block;
+    margin: 0;
+    font-size: 16px;
+    padding: 0;
+    font-family: Arial, "sans-serif";
+    font-weight: bold;
+    text-transform: uppercase; }
+  #theme-switcher h5 {
+    font-size: 17px;
+    margin-bottom: 15px; }
+  #theme-switcher .form-control {
+    height: 32px;
+    padding: 0 10px;
+    font-size: 14px; }
+  #theme-switcher .option a {
+    text-align: center;
+    min-width: 55px;
+    display: inline-block;
+    background: #f7f7f7;
+    padding: 5px 15px;
+    font-size: 14px;
+    margin-right: 10px;
+    color: inherit; }
+    #theme-switcher .option a.active, #theme-switcher .option a:hover {
+      background: #e6ae48;
+      color: #fff; }
+  #theme-switcher .reset {
+    text-align: center;
+    min-width: 55px;
+    display: block;
+    background: #e6ae48;
+    color: #fff;
+    padding: 5px 15px;
+    font-size: 14px; }
+  #theme-switcher ul {
+    margin-top: 0;
+    margin-bottom: 10px; }
+    #theme-switcher ul li {
+      padding: 0 5px 10px; }
+  #theme-switcher span {
+    display: block;
+    height: 33px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out; }
+    #theme-switcher span:hover, #theme-switcher span:focus, #theme-switcher span.active {
+      -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+      -moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+      box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75); }
+  #theme-switcher #default {
+    background: #e6ae48; }
+  #theme-switcher #blue {
+    background: #03afff; }
+  #theme-switcher #green {
+    background: #9ac23d; }
+  #theme-switcher #yellow {
+    background: #f0c42c; }
+  #theme-switcher #red {
+    background: #ff4444; }
+  #theme-switcher #brown {
+    background: #bc8339; }
+  #theme-switcher #purple {
+    background: #a537fd; }
+  #theme-switcher #green-dark {
+    background: #1abc9c; }
+  #theme-switcher #pattern1 {
+    background: url(theme/pattern/pattern1.png) repeat repeat; }
+  #theme-switcher #pattern2 {
+    background: url(theme/pattern/pattern2.png) repeat repeat; }
+  #theme-switcher #pattern3 {
+    background: url(theme/pattern/pattern3.png) repeat repeat; }
+  #theme-switcher #pattern4 {
+    background: url(theme/pattern/pattern4.png) repeat repeat; }
+
+#toggle-switcher {
+  display: block;
+  width: 50px;
+  height: 50px;
+  right: 192px;
+  top: -1px;
+  background: #fff;
+  position: absolute;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #eaeaea;
+  border-right: none;
+  transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out; }
+  #toggle-switcher i {
+    font-size: 26px;
+    line-height: 48px;
+    color: #e6ae48;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out; }
+  #toggle-switcher:hover {
+    background: #fff; }
+    #toggle-switcher:hover i {
+      color: #e6ae48; }

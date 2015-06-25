@@ -1,0 +1,18 @@
+/* --------------------------------------------------------------------------
+ * Indonez  	: Keid - Modern HTML Template
+ *  
+ * file         : heading-style2.css
+ * Version 		: 1.0
+ * Author       : indonez - team
+ * Author URI   : http://indonez.com
+ *
+ * Indonez Copyright 2015 All Rights Reserved.
+ * -------------------------------------------------------------------------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300; }
